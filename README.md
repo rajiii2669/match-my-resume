@@ -1,21 +1,27 @@
-# match-my-resume
-AI-powered resume matcher using Sentence Transformers and Gradio.
 # 🧠 AI Resume Matcher
 
-An AI-powered tool that compares a Job Description with multiple candidate resumes and ranks them based on similarity score using Sentence Transformers.
+This project helps match job descriptions with candidate resumes using AI-based similarity scoring (Sentence Transformers).
 
-## 🚀 Features
-- Upload one Job Description file (PDF/DOCX/TXT)
-- Upload multiple resumes (up to 10)
-- Get match scores for each candidate
-- Top scoring candidate is highlighted
+## 🚀 How It Works
+- Upload a Job Description file (`.pdf`, `.docx`, `.txt`)
+- Upload multiple candidate resumes
+- The app returns match scores and highlights the best-fit candidate
 
-## 💡 Tech Stack
+## 🛠️ Technologies Used
+- Python
 - Gradio
-- Sentence Transformers
-- PyPDF2 & python-docx
+- Sentence Transformers (`all-MiniLM-L6-v2`)
+- PyPDF2
+- python-docx
 
-## 🔧 How to Run
-1. Install requirements:
-```bash
-pip install gradio sentence-transformers PyPDF2 python-docx
+## 📁 Files Included
+- `resume_matcher.ipynb` – Main Google Colab notebook
+- `requirements.txt` – Required packages
+
+## 📌 Instructions
+1. Clone this repo or open the notebook in Google Colab
+2. Install the dependencies
+3. Run the notebook and interact with the Gradio app
+
+## ✨ Output Example
+
