@@ -1,0 +1,5 @@
+gradio
+PyPDF2
+python-docx
+pandas
+sentence-transformers
