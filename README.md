@@ -1,63 +1,24 @@
-# 💼 Match My Resume – AI Resume Matcher
+# Match My Resume – SaaS Resume Matcher
 
-**🔗 Live Demo:** [https://acf549f81925bc9ed4.gradio.live](https://acf549f81925bc9ed4.gradio.live)
+**Hosted at**: [Hugging Face Space](https://huggingface.co/spaces/rajalakshmimurugan/match-my-resume)
 
-This is a smart tool that helps match candidate resumes to a job description and shows who fits the role best.
+## 🔍 Description
+This is an AI-powered resume matcher tool that allows HR teams or job applicants to match resumes with a given job description.
 
-You just upload a **Job Description** file and multiple **Resume** files, and the app will show a **match score** for each candidate and highlight the top match.
+## 🚀 SaaS Model
+- **Frontend**: Gradio Web Interface
+- **Backend**: Python
+- **Deployment**: Hugging Face Spaces (public URL)
+- **Usage**: Paste a job description, upload multiple resumes (PDFs), and get match scores.
 
----
+## 🧑‍💻 How to Use (as a Service)
+- Access the tool from the Hugging Face URL.
+- You can also integrate this service into your own system by wrapping it in an API using `FastAPI` or `Flask`.
 
-## 🚀 Features
-
-- Upload 1 Job Description file (`.pdf`, `.docx`, `.txt`)
-- Upload multiple Resumes (up to 10)
-- Automatically reads and understands content
-- Scores each resume based on how well it fits the job
-- Highlights the best-matched candidate
-- Easy-to-use web interface (Gradio)
-
----
-
-## 🛠️ Tech Stack
-
-- Python
-- Gradio (for the interface)
-- PyPDF2, python-docx, pandas
-- SentenceTransformer model (pre-trained)
-
----
-
-## 📂 Project Files
-
-├── match_my_resume.ipynb # Main Google Colab notebook
-├── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
----
-
-## 💡 How It Works
-
-1. Upload your **Job Description**.
-2. Upload the **Resumes** you want to compare.
-3. The system checks which resume matches the job description best.
-4. You get a clear result showing the match scores for each resume.
-
----
-
-## 🔗 Links
-
-- GitHub Repo: [https://github.com/rajiii2669/match-my-resume](https://github.com/rajiii2669/match-my-resume)
-- Live App: [https://acf549f81925bc9ed4.gradio.live](https://acf549f81925bc9ed4.gradio.live)
-
----
-
-## 🙋‍♀️ Created By
-
-**Rajalakshmi Murugan**
-
----
+## 📦 Installation (For Local Testing)
+```bash
+git clone https://github.com/rajiii2669/match-my-resume
+cd match-my-resume
+pip install -r requirements.txt
+python app.py
 
