@@ -1,5 +1,5 @@
 gradio
-PyPDF2
+pypdf2
 python-docx
 pandas
 sentence-transformers
